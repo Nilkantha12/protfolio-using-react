@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../pages/About/AboutPage.css'
 import { Link } from 'react-router-dom';
-import cv from '../../cv/cv.pdf';
+import cv from '../../cv/Nilkantha CV.pdf';
 import { ButtomGet } from '../ButtomGet/ButtomGet';
 
 /* Multi idioma */
@@ -27,7 +27,7 @@ const About = () => (
                 <h4>
                     <FormattedMessage
                         id='description'
-                        defaultMessage='My name is Esteban Nahuel Carrizo and I am a full stack developer.'
+                        defaultMessage='My name is Nilkantha and I am a full stack developer.'
                     />
                 </h4>
                 <p>
@@ -45,7 +45,7 @@ const About = () => (
                                     defaultMessage='Age:'
                                 />
                             </span>
-                            25
+                            23
                         </p>
                     </li>
                     <li>
@@ -57,7 +57,7 @@ const About = () => (
                         </p>
                     </li>
                     <li>
-                        <p><span>Email:</span> estebancarrizo619@gmail.com</p>
+                        <p><span>Email:</span> nilkanthapoudel71@gmail.com</p>
                     </li>
                     <li>
                         <p>
@@ -67,7 +67,7 @@ const About = () => (
                                     defaultMessage='From:'
                                 />
                             </span>
-                            Tucumán, Argentina
+                            Nepal,pokhara
                         </p>
                     </li>
                 </ul>
